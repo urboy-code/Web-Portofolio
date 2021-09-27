@@ -115,3 +115,9 @@ footer{
         height: auto;
     }
 }
+
+@media screen and (max-wdith: 992px) {
+    .galler{
+        margin-top: 0;
+    }
+}
