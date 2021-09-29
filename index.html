@@ -13,6 +13,10 @@
     <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
 
+    <!-- Animate On Scroll -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
     <!-- My CSS -->
     <link rel="stylesheet" href="main.css">
 
@@ -55,12 +59,25 @@
         <div class="container">
             <div class="row justify-content-between custom-section">
                 <div class=" col-12 col-md-4 txt">
-                    <h3 style="color: #FF7600; font-size: 1.5em; font-weight: 500;">HI, I’m Eka Setiyanto</h3>
-                    <h2
+                    <h3 class="satu" style="color: #FF7600; font-size: 1.5em; font-weight: 500;"></h3>
+                    <h2 class="dua"
                         style="font-size: 1.9em; color: #ffffff; font-weight: 700; white-space: nowrap; margin-top: 1em;">
-                        I’m a Student From <br> Dian Nuswantoro University</h2>
-                    <p style="color: #FFB344;">STUDENT | PROGRAMMER</p>
-                    <a href="#" class="bt">More About Me</a>
+                    </h2>
+                    <p class="tiga" style="color: #FFB344;"></p>
+                    <a href="#about" class="bt" data-aos="fade-in" data-aos-duration="2000" data-aos-delay="500">More
+                        About Me</a>
+                    <a href="https://github.com/urboy-code" style="margin: 5px;" data-aos="fade-in"
+                        data-aos-duration="2000" data-aos-delay="500">
+                        <i class="bi bi-github text-white"></i>
+                    </a>
+                    <a href="https://twitter.com/strangeekr" style="margin: 5px;" data-aos="fade-in"
+                        data-aos-duration="2000" data-aos-delay="600">
+                        <i class="bi bi-twitter text-white"></i>
+                    </a>
+                    <a href="https://instagram.com/ekaleon" style="margin: 5px;" data-aos="fade-in"
+                        data-aos-duration="2000" data-aos-delay="700">
+                        <i class="bi bi-instagram text-white"></i>
+                    </a>
                 </div>
                 <div class="col-md-4 pto">
                     <img src="img/hero.png" alt="poto">
@@ -78,17 +95,17 @@
     <!-- About Section -->
     <section id="about">
         <div class="container">
-            <div class="row text-center">
-                <div class="col">
+            <div class="row text-center mb-3">
+                <div class="col" data-aos="fade-down" data-aos-duration="1000">
                     <h2>About Me</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-right" data-aos-duration="1000">
                     <p>Hi, My name is Eka Setiyanto. I'm a student from Dian Nuswantoro University. I have studied
                         programming about 3 years and until now i still learning. </p>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4" data-aos="fade-left" data-aos-duration="1500" data-aos-delay="300">
                     <p>I have learned programming from HTML, Css, Javascript, PHP, C++, JQuery, Node.js, React-Native.
                         of the many programming languages ​​that I have learned, there is not a single programming
                         language that I master.</p>
@@ -107,13 +124,13 @@
     <section id="project">
         <div class="container">
             <div class="row mb-4 text-center">
-                <div class="col">
+                <div class="col" data-aos="fade-down" data-aos-duration="2000">
                     <h2>My Project</h2>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="200">
                         <img src="img/project/1.png" class="card-img-top" alt="1">
                     </div>
                 </div>
@@ -122,14 +139,14 @@
             <div class="row">
                 <div class="col-md-6"></div>
                 <div class="col-md-6 my-3">
-                    <div class="card">
+                    <div class="card" data-aos="fade-left" data-aos-duration="2000" data-aos-delay="300">
                         <img src="img/project/2.png" alt="2" class="card-img-top">
                     </div>
                 </div>
             </div>
             <div class="row">
                 <div class="col-md-6 my-2">
-                    <div class="card">
+                    <div class="card" data-aos="fade-right" data-aos-duration="2000" data-aos-delay="400">
                         <img src="img/project/2.png" alt="2" class="card-img-top">
                     </div>
                 </div>
@@ -154,34 +171,34 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card card-img">
                         <img src="img/gallery/1.png" alt="gallery1" class="card-image-top">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card card-img">
                         <img src="img/gallery/2.png" alt="gallery2" class="card-image-top">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card card-img">
                         <img src="img/gallery/3.png" alt="gallery3" class="card-image-top">
                     </div>
                 </div>
             </div>
             <div class="row my-2">
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card card-img">
                         <img src="img/gallery/4.png" alt="gallery4" class="card-image-top">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card card-img">
                         <img src="img/gallery/5.png" alt="gallery5" class="card-image-top">
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card">
+                    <div class="card card-img">
                         <img src="img/gallery/6.png" alt="gallery6" class="card-image-top">
                     </div>
                 </div>
@@ -199,29 +216,28 @@
     <section id="contact">
         <div class="container">
             <div class="row text-center">
-                <div class="col">
+                <div class="col" data-aos="fade-down" data-aos-duration="2000">
                     <h2>Contact Me</h2>
                 </div>
             </div>
             <div class="row justify-content-center">
                 <div class="col-md-8">
-                    <form>
-                        <div class="mb-3">
+                    <form action="proses.php" method="POST">
+                        <div class="mb-3" data-aos="fade-right" data-aos-duration="1000">
                             <label for="name" class="form-label">Nama Lengkap</label>
-                            <input type="text" class="form-control" id="name"
-                                aria-describedby="name">
+                            <input type="text" class="form-control" id="name" aria-describedby="name" name="nama">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="300">
                             <label for="email" class="form-label">Email</label>
-                            <input type="email" class="form-control" id="email"
-                                aria-describedby="email">
+                            <input type="email" class="form-control" id="email" aria-describedby="email" name="email">
                         </div>
-                        <div class="mb-3">
+                        <div class="mb-3" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
                             <label for="textarea" class="form-label">Pesan</label>
-                            <textarea class="form-control" id="textarea" rows="3"></textarea>
+                            <textarea class="form-control" id="textarea" rows="3" name="pesan"></textarea>
                         </div>
 
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="submit" class="btn btn-primary" data-aos="fade-up" data-aos-duration="1000"
+                            data-aos-delay="500">Submit</button>
                     </form>
                 </div>
             </div>
@@ -241,8 +257,43 @@
     </footer>
     <!-- Footer End Section -->
 
+    <!-- Arrow go ut -->
 
+    <a class="gotopbtn" href="#"><i class="bi bi-arrow-up-circle-fill" style="width: 25px; height: 25px;"></i></a>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/TextPlugin.min.js"></script>
+    <script>
+        gsap.registerPlugin(TextPlugin);
+        gsap.to('.satu', {
+            duration: 1.5,
+            text: 'HI, I’m Eka Setiyanto'
+        })
+        gsap.to('.dua', {
+            duration: 4.2,
+            delay: 1.5,
+            text: 'I’m a Student From <br> Dian Nuswantoro University'
+        })
+        gsap.to('.tiga', {
+            duration: 2,
+            delay: 5,
+            text: 'STUDENT | PROGRAMMER'
+        });
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        const galleryImage = document.querySelectorAll('.card-img');
+
+        galleryImage.forEach((img, i) => {
+            img.dataset.aos = 'fade-down';
+            img.dataset.aosDelay = i * 100;
+        });
+
+        AOS.init({
+            once: true,
+        });
+    </script>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
